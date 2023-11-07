@@ -12,6 +12,7 @@ const RightSide = () => {
   const [modalOpened,setModalOpened]=useState(false)
   return (
     <div className='RightSide'>
+
       <div className="navIcons">
         <Link to ="../home"><img src={Home} alt="" /></Link>
         
@@ -20,6 +21,7 @@ const RightSide = () => {
         <Link to ="../chat"><img src={Comment} alt="" /></Link>
         
       </div>
+      
       <TrendCard/>
       <button className="button r-button" onClick={()=>{
           setModalOpened(true)

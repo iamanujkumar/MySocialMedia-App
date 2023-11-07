@@ -3,11 +3,21 @@ import './PostSide.css'
 import PostShear from '../../PostShear/PostShear'
 import Posts from '../../Posts/Posts'
 
-const PostSide = () => {
+const PostSide = ({location}) => {
   return (
     <div className='PostSide'>
-        <PostShear/>
-        <Posts/>
+
+{location === "UseProfile" ? (
+        <>
+          <Posts />
+        </>
+      ) : (
+        <>
+          <PostShear />
+          <Posts />
+        </>
+      )}
+
     </div>
   )
 }

@@ -1,0 +1,18 @@
+.UserProfile{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+}
+
+.userProfileCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.btn{
+    padding-left: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}

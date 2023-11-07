@@ -4,6 +4,7 @@
     flex-direction: column;
     position: relative;
     gap: 1rem;
+    margin-top: 1rem;
     overflow-x: clip;
     background: white;
 

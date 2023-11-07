@@ -1,0 +1,13 @@
+.userInfo{
+    margin-top: 2rem;
+}
+
+.InfoCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+}

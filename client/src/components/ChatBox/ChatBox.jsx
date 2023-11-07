@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getUser } from '../../api/UserRequest'
 import { useRef } from "react";
-// import { getMessages } from '../../api/MessageRequest'
 import { addMessage, getMessages } from "../../api/MessageRequest";
 import "./ChatBox.css";
 import {format} from 'timeago.js'

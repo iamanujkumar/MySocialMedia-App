@@ -8,6 +8,7 @@ const postSchema = mongoose.Schema({
     firstname:String,
     lastname:String,
     likes:[],
+    comment:[],
     createdAt: {
         type: Date,
         default: new Date(),

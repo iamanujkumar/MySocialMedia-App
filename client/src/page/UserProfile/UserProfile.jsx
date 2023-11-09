@@ -120,7 +120,7 @@ const handleCreateChat = async () => {
         console.error(error);
       }
 }
-{user._id!==id?setShowChatBox(true):setShowChatBox(false)}
+ setShowChatBox(true)
 
 
 };
@@ -130,7 +130,7 @@ const handleCreateChat = async () => {
       <div className="userLeft">
         <LogoSearch />
         {userData ? <UserCard userData={userData} location="ProfilePage" /> : <p>Loading user data...</p>}
-        <div className="btn">
+        {id!==user._id?<div className="btn">
           <button
             className={following ? 'button fc-button UnfollowButton' : 'button fc-button'}
             onClick={handleFollow}
@@ -146,7 +146,7 @@ const handleCreateChat = async () => {
           >
             Chat
           </button>
-        </div>
+        </div>:" "}
         <UserInfoCard userData={userData} />
       </div>
 

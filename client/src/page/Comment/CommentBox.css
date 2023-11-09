@@ -1,0 +1,35 @@
+.Comment-Box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Comment{
+   
+    display: flex;
+}
+.Comment>img{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    /* box-shadow: var(--profileShadow);
+    object-fit: contain; */
+}
+.UserComments>span>img{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.UserComments>span{
+     margin: 1rem;
+    box-shadow: var(--profileShadow);
+    object-fit: contain;
+}
+
+.UserComments{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+

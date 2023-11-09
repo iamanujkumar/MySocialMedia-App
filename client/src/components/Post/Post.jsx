@@ -8,10 +8,14 @@ import { useSelector } from 'react-redux'
 import { likePost } from '../../api/PostRequest'
 import {format} from 'timeago.js'
 import { Link } from 'react-router-dom'
+import CommentBox from '../../page/Comment/CommentBox'
 
 const Post = ({data}) => {
   
   const {user} = useSelector((state)=>state.authReducer.authData)
+  const [showCommentBox, setShowCommentBox] = useState(false)
+
+
 
   // data.likes.includes(user._id)
   const [liked, setLiked] = useState(false)
@@ -27,6 +31,10 @@ const Post = ({data}) => {
 
   }
   const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER
+
+  const handleComment=()=>{
+    setShowCommentBox((prev)=>!prev);
+  }
 
   return (
     <div className="Post">
@@ -56,7 +64,7 @@ const Post = ({data}) => {
       
       <div className="postReact">
         <img src={liked?Heart:NotLike} alt="" style={{cursor: "pointer"}} onClick={handleLike} />
-        <img src={Comment} alt="" />
+        <img src={Comment} alt="" onClick={handleComment} />
         <img src={Shear} alt="" />
        </div>
        
@@ -64,6 +72,8 @@ const Post = ({data}) => {
        <span style={{color:"var(--gray)", fontSize:'13px'}}>{likes.length}Likes</span>
        <div className="detail">
        <span><b>{data.name}</b></span>
+       {showCommentBox && <CommentBox postId={data._id} userId={user._id}/>}
+       
        
 
        </div>

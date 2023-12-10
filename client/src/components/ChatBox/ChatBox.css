@@ -25,7 +25,7 @@
   color: white;
   padding: 0.7rem;
   border-radius: 1rem 1rem 1rem 0;
-  max-width: 28rem;
+  max-width: 29rem;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -80,4 +80,32 @@
 .chat-sender>div{
     height: 70%;
     padding: 0px 15px 0px 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .message{
+        max-width: 13rem;
+    }
+   
+    .react-input-emoji--button svg{
+        display: none;
+    }
+    .send-button{
+        font-size: 0.8rem;
+        width: 4rem;
+    }
+    .chat-sender>div{
+        padding: 0;
+        margin: -10px;
+    } 
+    .chat-sender>div:nth-of-type(1){
+        width: 3rem;
+    }
+    .react-emoji {
+        margin: -13px;
+    }
+    .ChatBox-container{
+        grid-template-rows: 14vh 70vh 13vh;
+    }
 }

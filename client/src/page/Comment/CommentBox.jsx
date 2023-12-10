@@ -99,26 +99,28 @@ const CommentBox = ({ postId, userId }) => {
       <div className="UserComments" style={{ maxHeight: '400px', overflowY: 'auto' }}>
         {comments.map((comment) => (
           <div key={comment._id} style={{ display: 'flex', alignItems: 'center' }}>
-            {commentUsers[comment.userId] && (
-              <>
-                <img
-                  src={
-                    commentUsers[comment.userId].profilePicture
-                      ? serverPublic + commentUsers[comment.userId].profilePicture
-                      : serverPublic + 'defaultProfile.png'
-                  }
-                  alt=""
-                  style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '0.4rem' }}
-                />
-              </>
-            )}
-            
-            <div style={{ boxShadow: 'var(--profileShadow)', margin: '1rem', padding: '1rem', borderRadius: '1rem', display:'flex', flexDirection:'column' }}>
-            {/* <span style={{fontWeight:'600', fontSize:'13px'}}>{commentUsers[comment.userId].firstname}</span> */}
-              {comment.text}
-            </div>
-            <span style={{fontSize:'10px'}}>{format(comment.createdAt)}</span>
+          {commentUsers[comment.userId] && (
+            <>
+              <img
+                src={
+                  commentUsers[comment.userId].profilePicture
+                    ? serverPublic + commentUsers[comment.userId].profilePicture
+                    : serverPublic + 'defaultProfile.png'
+                }
+                alt=""
+                style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '0.4rem' }}
+              />
+            </>
+          )}
+          
+          <div style={{ boxShadow: 'var(--profileShadow)', margin: '1rem', padding: '1rem', borderRadius: '1rem', display:'flex', flexDirection:'column' }}>
+            <span style={{fontWeight:'600', fontSize:'13px'}}>{commentUsers[comment.userId]?.firstname}</span>
+            {comment.text}
           </div>
+          <span style={{fontSize:'10px'}}>{format(comment.createdAt)}</span>
+        </div>
+        
+        
         ))}
       </div>
     </div>

@@ -7,6 +7,7 @@ import {UilSchedule} from "@iconscout/react-unicons"
 import {UilTimes} from "@iconscout/react-unicons"
 import {useDispatch, useSelector} from 'react-redux';
 import { uploadImage, uploadPost } from '../../actions/uploadAction'
+import { Link } from 'react-router-dom'
 
 const PostShear = () => {
   const loading = useSelector((state)=>state.postReducer.uploading)
@@ -54,7 +55,18 @@ const handleSubmit =(e)=>{
 
   return (
     <div className='PostShear'>
-        <img src={user.coverPicture ? serverPublic + user.profilePicture: serverPublic + "defaultProfile.png"} alt="" className="scr" />
+      <Link to={`/UserProfile/${user._id}`}>
+  <img
+    src={user.coverPicture ? serverPublic + user.profilePicture : serverPublic + "defaultProfile.png"}
+    alt=""
+    className="scr"
+    style={{
+      borderRadius: "50%",
+      width: "3rem",
+      height: "3rem"
+    }}
+  />
+</Link>
         <div>
 
         <input ref={desc} required type='text' placeholder="What's happning "/>

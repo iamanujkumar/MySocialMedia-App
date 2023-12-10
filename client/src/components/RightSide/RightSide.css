@@ -1,23 +1,48 @@
-.RightSide{
+/* ok RightSide.css */
+
+.RightSide {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-}
-.navIcons{
+  }
+  
+  .navIcons {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-}
-.navIcons>img{
-    width: 1.5rem;
-    height: 1.5rem;
-}
-.navIcons>a>img{
-    width: 1.5rem;
-    height: 1.5rem;
-}
-.r-button{
+    align-items: center; /* Center items vertically */
+    padding: 0 1rem; /* Add padding to prevent cutting off in mobile view */
+  }
+  
+  .navIcons > img,
+  .navIcons > a > img {
+    width: 1.5rem; /* Set the desired width */
+    height: 1.5rem; /* Set the desired height */
+  }
+  
+  .r-button {
     height: 3rem;
     width: 80%;
     align-self: center;
-}
+  }
+  
+  /* Hide TrendCard and Share button on screens with a width of 767 pixels or less */
+  @media (max-width: 767px) {
+    .trendCard-container {
+      display: none;
+    }
+  
+    .r-button {
+      display: none;
+    }
+  
+    .RightSide {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .navIcons{
+        padding-right: 3rem;
+    }
+  }
+  

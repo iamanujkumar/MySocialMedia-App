@@ -1,6 +1,6 @@
 // Chat.js
 import React, { useEffect, useRef, useState } from 'react';
-import './Chat.css';
+import './chat2.css';
 import LogoSearch from '../../components/LogoSearch/LogoSearch';
 import { useSelector } from 'react-redux';
 import { userChats } from '../../api/ChatRequest';
@@ -22,7 +22,6 @@ const Chat = () => {
   const [sendMessage, setSendMessage] = useState(null);
   const [receiverMessage, setReceiverMessage] = useState(null);
   const [showChatBox, setShowChatBox] = useState(false);
-  const [showConversationList, setShowConversationList] = useState(true);
 
   // send msg socket server
   const socket = useRef();
@@ -69,16 +68,11 @@ const Chat = () => {
   const handleChatClick = (chat) => {
     setCurrentChat(chat);
     setShowChatBox(true);
-
-    // Hide conversation list on mobile after tapping on a chat
-    if (window.innerWidth <= 768) {
-      setShowConversationList(false);
-    }
   };
 
   return (
     <div className="Chat">
-      <div className={`leftSideChat ${showConversationList ? '' : 'hide'}`}>
+      <div className={`leftSideChat ${showChatBox ? 'hide' : ''}`}>
         <LogoSearch />
         <div className="ChatContainer">
           <h2>Chats</h2>
@@ -96,7 +90,7 @@ const Chat = () => {
         </div>
       </div>
       <div className={`rightSideChat ${showChatBox ? 'show' : ''}`}>
-        <div className='chat-nav'>
+        <div style={{ width: '20rem', alignSelf: 'flex-end' }}>
           <div className="navIcons">
             <Link to="../home">
               <img src={Home} alt="" />

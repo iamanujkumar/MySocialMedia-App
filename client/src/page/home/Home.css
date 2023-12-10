@@ -1,6 +1,30 @@
-.Home{
+.Home {
     position: relative;
     display: grid;
     grid-template-columns: 18rem auto 20rem;
     gap: 1rem;
-}
+  }
+  
+  /* 1st Adjust grid layout for medium and larger screens */
+  
+  @media (min-width: 768px) {
+    .profile-side-container {
+      display: block;
+    }
+  }
+  
+  /* Adjust grid layout for smaller screens */
+  @media (max-width: 767px) {
+    .profile-side-container {
+      display: none;
+    }
+  
+    .Home {
+      grid-template-columns: auto;
+      justify-content: center;
+    }
+  
+    .Home > * {
+      grid-column: span 2; /* Make each child take the full width */
+    }
+  }

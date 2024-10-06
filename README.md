@@ -56,3 +56,24 @@ Click on the image above to watch the demo video on YouTube and see the platform
         </td>
     </tr>
 </table>
+
+## Features
+
+- **User Authentication**: Secure sign-up, login, and session management using **JWT (JSON Web Token)**.
+- **Post Management**: Users can create, edit, and delete posts with image uploads, powered by **Cloudinary** for storage.
+- **Like/Dislike System**: Allows users to like or dislike posts, and the UI updates in real-time.
+- **Follow/Unfollow**: Users can follow and unfollow other users to keep track of their activities.
+- **Real-Time Chat**: Integrated **Socket.io** for real-time messaging between users.
+- **Responsive Design**: A modern and responsive UI, ensuring a seamless experience on both desktop and mobile devices.
+
+## Technologies Used
+
+- **MongoDB**: NoSQL database used for data persistence.
+- **Express.js**: Backend framework for handling API requests and routing.
+- **React.js**: Frontend framework for building an interactive and dynamic user interface.
+- **Node.js**: JavaScript runtime for server-side development.
+- **Socket.io**: For enabling real-time communication and chat between users.
+- **JWT**: JSON Web Token used for user authentication and session management.
+- **Cloudinary**: Cloud-based storage for image uploads.
+- **Multer**: Middleware for handling file uploads.
+- **Tailwind CSS**: Used for modern and responsive design.

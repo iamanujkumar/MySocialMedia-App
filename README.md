@@ -28,8 +28,37 @@ Click on the image above to watch the demo video on YouTube and see the platform
 *The chat interface showcasing real-time messaging.*
 
 ### 4. Responsive Design
-![Responsive Design](screenshots/responsive-design-screenshot.png)
-*The application displayed on both desktop and mobile devices.*
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Signup</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Login</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">User Profile</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px;">
+            <div style="text-align: center;">
+                <h4>Signup</h4>
+                <img src="https://drive.google.com/uc?id=13U-gY-qsMabl4voVHx_P5yHnzIfMsm9z" alt="Signup" width="100%" />
+                <p>*Signup page for new users.*</p>
+            </div>
+        </td>
+        <td style="border: 1px solid #ddd; padding: 8px;">
+            <div style="text-align: center;">
+                <h4>Login</h4>
+                <img src="https://drive.google.com/uc?id=1Rp7zfzedhf80MwjvZIGv4pmKVM84kwm8" alt="Login" width="100%" />
+                <p>*Login page for users.*</p>
+            </div>
+        </td>
+        <td style="border: 1px solid #ddd; padding: 8px;">
+            <div style="text-align: center;">
+                <h4>User Profile</h4>
+                <img src="https://example.com/user-profile-image.jpg" alt="User Profile" width="100%" /> <!-- Replace with actual image link -->
+                <p>*User profile page for managing account settings and information.*</p>
+            </div>
+        </td>
+    </tr>
+</table>
+
 
 ## Features
 

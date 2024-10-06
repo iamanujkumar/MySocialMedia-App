@@ -37,22 +37,22 @@ Click on the image above to watch the demo video on YouTube and see the platform
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px;">
             <div style="text-align: center;">
-                <h4>Signup</h4>
-                <img src="https://drive.google.com/uc?id=13U-gY-qsMabl4voVHx_P5yHnzIfMsm9z" alt="Signup" width="100%" />
+                <h4>Post Responsive</h4>
+                <img src="https://drive.google.com/file/d/1sMYWZh3aS6dzRRoJ95o6mNz7biieFXMa/view?usp=sharing" width="100%" height="100%" />
                 <p>*Signup page for new users.*</p>
             </div>
         </td>
         <td style="border: 1px solid #ddd; padding: 8px;">
             <div style="text-align: center;">
-                <h4>Login</h4>
-                <img src="https://drive.google.com/uc?id=1Rp7zfzedhf80MwjvZIGv4pmKVM84kwm8" alt="Login" width="100%" />
+                <h4>Post Responsive</h4>
+                <img src="https://drive.google.com/file/d/1sUIG_zcvc2K_Z0Fs27TjVoCYvcyezaU3/view?usp=sharing" alt="Login" width="100%" />
                 <p>*Login page for users.*</p>
             </div>
         </td>
         <td style="border: 1px solid #ddd; padding: 8px;">
             <div style="text-align: center;">
-                <h4>User Profile</h4>
-                <img src="https://example.com/user-profile-image.jpg" alt="User Profile" width="100%" /> <!-- Replace with actual image link -->
+                <h4>Chat Responsive</h4>
+                <img src="https://drive.google.com/file/d/1sLuF43SxkpJDGlo3o7Rxw680Y0_p3_y-/view?usp=sharing" alt="User Profile" width="100%" /> <!-- Replace with actual image link -->
                 <p>*User profile page for managing account settings and information.*</p>
             </div>
         </td>

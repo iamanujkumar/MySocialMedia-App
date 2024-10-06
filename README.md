@@ -8,7 +8,7 @@
 *Users can create, edit, and delete posts with image uploads.*
 
 ### 3. Post Management
-![Post Management](https://drive.google.com/file/d/15SRbKIjDHP-pEhzk0bxR-8TgkVTMxV6E/view?usp=sharingg)
+![Home Page](https://drive.google.com/uc?id=1dt5UZljRVbu6OuEGdgddPy-XQoav85a4)
 *Users can manage posts with options to edit and delete.*
 
 ### 4. Real-Time Chat

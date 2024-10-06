@@ -4,7 +4,7 @@ This dynamic social media platform is built using the **MERN stack (MongoDB, Exp
 
 ## Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/jJLUhO--hDE/maxresdefault.jpg)](https://youtu.be/jJLUhO--hDE)
+[![Watch the demo](https://img.youtube.com/vi/jJLUhO--hDE/0.jpg)](https://youtu.be/jJLUhO--hDE)
 
 Click on the image above to watch the demo video on YouTube and see the platform in action!
 

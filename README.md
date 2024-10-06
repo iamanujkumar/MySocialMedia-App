@@ -6,8 +6,30 @@ This dynamic social media platform is built using the **MERN stack (MongoDB, Exp
 
 [![Watch the demo](https://img.youtube.com/vi/jJLUhO--hDE/maxresdefault.jpg)](https://youtu.be/jJLUhO--hDE)
 
-
 Click on the image above to watch the demo video on YouTube and see the platform in action!
+
+## Screenshots
+
+### 2. Home Page
+![Home [Page](https://drive.google.com/file/d/1dt5UZljRVbu6OuEGdgddPy-XQoav85a4/view?usp=sharing)
+*Users can create, edit, and delete posts with image uploads.*
+
+### 1. User Authentication
+| Signup | Login |
+| ------ | ----- |
+| <div style="text-align: center;"><h4>Signup</h4><img src="https://drive.google.com/file/d/1WNB-f_iizmZsFweaLRrtcc09dlZtKR7N/view?usp=sharing" alt="Signup" width= 100% /><p>*Signup page for new users.*</p></div> | <div style="text-align: center;"><h4>Login</h4><img src="https://drive.google.com/file/d/1bp7pbqOQcp2nN9ul-L6eWyi5RGr2_Q8a/view?usp=sharing" alt="Login" width= 100% /><p>*Login page for users.*</p></div> |
+
+### 2. Post Management
+![Post Management](screenshots/post-management-screenshot.png)
+*Users can create, edit, and delete posts with image uploads.*
+
+### 3. Real-Time Chat
+![Real-Time Chat](https://drive.google.com/file/d/1X5kh8bm-Eff4OfrR3nII3kETHh0vwHGJ/view?usp=sharing)
+*The chat interface showcasing real-time messaging.*
+
+### 4. Responsive Design
+![Responsive Design](screenshots/responsive-design-screenshot.png)
+*The application displayed on both desktop and mobile devices.*
 
 ## Features
 
@@ -17,7 +39,7 @@ Click on the image above to watch the demo video on YouTube and see the platform
 - **Follow/Unfollow**: Users can follow and unfollow other users to keep track of their activities.
 - **Real-Time Chat**: Integrated **Socket.io** for real-time messaging between users.
 - **Responsive Design**: A modern and responsive UI, ensuring a seamless experience on both desktop and mobile devices.
-  
+
 ## Technologies Used
 
 - **MongoDB**: NoSQL database used for data persistence.

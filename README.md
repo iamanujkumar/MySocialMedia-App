@@ -1,6 +1,6 @@
 # Dynamic Social Media Web Application
 
-This dynamic social media platform is built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)** with a focus on enhancing **user engagement and interaction**. It includes robust features such as post management, real-time messaging, and secure user authentication, all optimized for a smooth user experience.
+This dynamic social media platform is built using the **MERN stack (React.js, Redux, Node.js, Express.js, MongoDB, Socket.io, Cloudinary)** with a focus on enhancing **user engagement and interaction**. It includes robust features such as post management, real-time messaging, and secure user authentication, all optimized for a smooth user experience.
 
 ## Demo Video
 

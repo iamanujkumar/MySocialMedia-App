@@ -37,21 +37,18 @@ Click on the image above to watch the demo video on YouTube and see the platform
             <div style="text-align: center;">
                 <h4>Post Responsive</h4>
                 <img src="https://drive.google.com/uc?id=1sMYWZh3aS6dzRRoJ95o6mNz7biieFXMa" width="100%" height="100%" />
-                <p>*Signup page for new users.*</p>
             </div>
         </td>
         <td style="border: 1px solid #ddd; padding: 8px;">
             <div style="text-align: center;">
                 <h4>Post Responsive</h4>
                 <img src="https://drive.google.com/uc?id=1sUIG_zcvc2K_Z0Fs27TjVoCYvcyezaU3" alt="Login" width="100%" height="100%" />
-                <p>*Login page for users.*</p>
             </div>
         </td>
         <td style="border: 1px solid #ddd; padding: 8px;">
             <div style="text-align: center;">
                 <h4>Chat Responsive</h4>
                 <img src="https://drive.google.com/uc?id=1sLuF43SxkpJDGlo3o7Rxw680Y0_p3_y-" alt="User Profile" width="100%" height="100%" />
-                <p>*User profile page for managing account settings and information.*</p>
             </div>
         </td>
     </tr>
